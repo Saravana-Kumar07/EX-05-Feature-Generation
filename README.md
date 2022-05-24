@@ -21,7 +21,7 @@ Save the data to the file
 
 # CODE:
 ## Data Csv:
-```
+```python
 import pandas as pd
 df=pd.read_csv("data.csv")
 print(df)
@@ -71,7 +71,7 @@ df5=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'City',
 df5
 ```
 ## Enconding data:
-```
+```python
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
 df
@@ -113,7 +113,7 @@ df4=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'nom_0'
 df4
 ```
 ## Titanic dataset:
-```
+```python
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
 df
